@@ -37,9 +37,9 @@ return function(flavour)
 	}
 
 	catppuccin.inactive = {
-		a = { bg = transparent_bg, fg = C.blue },
-		b = { bg = transparent_bg, fg = C.surface1, gui = "bold" },
-		c = { bg = transparent_bg, fg = C.overlay0 },
+		a = { bg = C.text, fg = C.blue },
+		b = { bg = C.text, fg = C.surface1, gui = "bold" },
+		c = { bg = C.text, fg = C.overlay0 },
 	}
 
 	return catppuccin
